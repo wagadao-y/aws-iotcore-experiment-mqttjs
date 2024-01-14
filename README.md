@@ -7,6 +7,6 @@ IoT Coreのモノの証明書をリネームしてcertificatesフォルダに保
 ルートCA証明書 : Amazon-root-CA-1.pem  
 ```
 # コマンドライン引数のAWS IoT Coreのデバイスエンドポイントは読み替えてください
-pip install paho-mqtt
+npm install
 node index.js  "xxxxxxxxxx-ats.iot.ap-northeast-1.amazonaws.com"
 ```
